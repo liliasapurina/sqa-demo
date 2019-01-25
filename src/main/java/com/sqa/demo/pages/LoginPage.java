@@ -4,7 +4,7 @@ import com.sqa.demo.page_blocks.login_page.LoginForm;
 
 @PageObject
 public class LoginPage {
-    // LoginPage loginPage - вместо LoginPage loginPage = Selenide.page(SqaLoginSteps());
+    // LoginPage loginPage - вместо LoginPage loginPage = new LoginPage();
     @PageBlock
     LoginForm loginForm;
 
